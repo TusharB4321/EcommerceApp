@@ -1,8 +1,8 @@
 package com.example.ecommercea.data.mapper
 
-import com.example.taptaze.data.model.Product
-import com.example.taptaze.data.model.ProductEntity
-import com.example.taptaze.data.model.ProductUI
+import com.example.ecommerce.data.model.Product
+import com.example.ecommerce.data.model.ProductEntity
+import com.example.ecommerce.data.model.ProductUI
 
 fun ProductUI.mapToProductEntity(): ProductEntity {
     return ProductEntity(

@@ -5,13 +5,11 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.ecommercea.data.repository.AuthRepo
-import com.example.taptaze.common.Resource
-import com.example.taptaze.data.repository.AuthRepo
+import com.example.ecommerce.common.Resource
 import com.google.firebase.auth.FirebaseUser
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
-import kotlin.text.Typography.dagger
 
 @HiltViewModel
 class AuthViewModel @Inject constructor(private val repo: AuthRepo) : ViewModel() {

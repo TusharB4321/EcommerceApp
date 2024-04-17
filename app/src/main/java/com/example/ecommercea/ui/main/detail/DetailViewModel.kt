@@ -1,12 +1,12 @@
-package com.example.taptaze.ui.main.detail
+package com.example.ecommerce.ui.main.detail
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.taptaze.common.Resource
-import com.example.taptaze.data.model.ProductUI
-import com.example.taptaze.data.repository.ProductRepository
+import com.example.ecommerce.common.Resource
+import com.example.ecommerce.data.model.ProductUI
+import com.example.ecommerce.data.repository.ProductRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

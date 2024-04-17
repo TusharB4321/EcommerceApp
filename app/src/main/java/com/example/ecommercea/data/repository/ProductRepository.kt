@@ -4,17 +4,12 @@ import com.example.ecommercea.common.Resource
 import com.example.ecommercea.data.model.ProductUI
 import com.example.ecommercea.data.model.request.AddToCartRequest
 import com.example.ecommercea.data.model.request.DeleteFromCartRequest
-import com.example.taptaze.common.Resource
-import com.example.taptaze.data.mapper.mapToProductEntity
-import com.example.taptaze.data.mapper.mapToProductUI
-import com.example.taptaze.data.model.Product
-import com.example.taptaze.data.model.ProductUI
-import com.example.taptaze.data.model.request.AddToCartRequest
-import com.example.taptaze.data.model.request.ClearCartRequest
-import com.example.taptaze.data.model.request.DeleteFromCartRequest
-import com.example.taptaze.data.model.response.CRUDResponse
-import com.example.taptaze.data.source.local.ProductDao
-import com.example.taptaze.data.source.remote.ProductService
+import com.example.ecommerce.data.mapper.mapToProductEntity
+import com.example.ecommerce.data.mapper.mapToProductUI
+import com.example.ecommerce.data.model.request.ClearCartRequest
+import com.example.ecommerce.data.model.response.CRUDResponse
+import com.example.ecommerce.data.source.local.ProductDao
+import com.example.ecommerce.data.source.remote.ProductService
 import com.google.firebase.auth.FirebaseAuth
 
 

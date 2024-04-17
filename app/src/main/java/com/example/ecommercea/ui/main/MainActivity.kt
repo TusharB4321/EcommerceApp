@@ -4,13 +4,12 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
-import com.example.taptaze.R
-import com.example.taptaze.common.invisible
-import com.example.taptaze.common.viewBinding
-import com.example.taptaze.common.visible
-import com.example.taptaze.databinding.ActivityMainBinding
+import com.example.ecommerce.R
+import com.example.ecommerce.common.invisible
+import com.example.ecommerce.common.viewBinding
+import com.example.ecommerce.common.visible
+import com.example.ecommerce.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
-import kotlin.text.Typography.dagger
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {

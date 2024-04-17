@@ -1,8 +1,7 @@
 package com.example.ecommercea.data.repository
 
 import com.example.ecommercea.common.Resource
-import com.example.taptaze.common.Resource
-import com.example.taptaze.data.utils.await
+import com.example.ecommerce.data.utils.await
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.UserProfileChangeRequest

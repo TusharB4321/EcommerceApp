@@ -1,4 +1,4 @@
-package com.example.taptaze.ui.main.paymentsuccess
+package com.example.ecommerce.ui.main.paymentsuccess
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,12 +9,12 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.NavOptions
 import androidx.navigation.fragment.findNavController
-import com.example.taptaze.R
-import com.example.taptaze.common.visible
-import com.example.taptaze.data.model.request.ClearCartRequest
-import com.example.taptaze.databinding.FragmentPaymentSuccessBinding
-import com.example.taptaze.ui.main.cart.CartState
-import com.example.taptaze.ui.main.cart.CartViewModel
+import com.example.ecommerce.R
+import com.example.ecommerce.common.visible
+import com.example.ecommerce.data.model.request.ClearCartRequest
+import com.example.ecommerce.databinding.FragmentPaymentSuccessBinding
+import com.example.ecommerce.ui.main.cart.CartState
+import com.example.ecommerce.ui.main.cart.CartViewModel
 import com.google.firebase.auth.FirebaseAuth
 import dagger.hilt.android.AndroidEntryPoint
 

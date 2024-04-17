@@ -1,4 +1,4 @@
-package com.example.taptaze.ui.main.favorite
+package com.example.ecommerce.ui.main.favorite
 
 import android.text.Html
 import android.view.LayoutInflater
@@ -6,10 +6,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.taptaze.common.loadImage
-import com.example.taptaze.common.visible
-import com.example.taptaze.data.model.ProductUI
-import com.example.taptaze.databinding.ItemFavoriteBinding
+import com.example.ecommerce.common.loadImage
+import com.example.ecommerce.common.visible
+import com.example.ecommerce.data.model.ProductUI
+import com.example.ecommerce.databinding.ItemFavoriteBinding
 
 class FavoriteProductsAdapter(
     private val productListener: ProductListener

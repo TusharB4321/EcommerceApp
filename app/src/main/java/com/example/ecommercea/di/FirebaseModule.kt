@@ -1,7 +1,7 @@
-package com.example.taptaze.di
+package com.example.ecommerce.di
 
-import com.example.taptaze.data.repository.AuthRepo
-import com.example.taptaze.data.repository.AuthRepoImpl
+import com.example.ecommerce.data.repository.AuthRepo
+import com.example.ecommerce.data.repository.AuthRepoImpl
 import com.google.firebase.auth.FirebaseAuth
 import dagger.Module
 import dagger.Provides

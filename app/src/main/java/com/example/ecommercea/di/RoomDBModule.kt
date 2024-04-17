@@ -1,8 +1,8 @@
-package com.example.taptaze.di
+package com.example.ecommerce.di
 
 import android.content.Context
 import androidx.room.Room
-import com.example.taptaze.data.source.local.ProductRoomDB
+import com.example.ecommerce.data.source.local.ProductRoomDB
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

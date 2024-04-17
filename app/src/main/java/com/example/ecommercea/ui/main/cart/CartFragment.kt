@@ -1,4 +1,4 @@
-package com.example.taptaze.ui.main.cart
+package com.example.ecommerce.ui.main.cart
 
 import android.app.AlertDialog
 import android.os.Bundle
@@ -9,12 +9,12 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.example.taptaze.R
-import com.example.taptaze.common.invisible
-import com.example.taptaze.common.visible
-import com.example.taptaze.data.model.request.ClearCartRequest
-import com.example.taptaze.databinding.FragmentCartBinding
-import com.example.taptaze.ui.login.AuthViewModel
+import com.example.ecommerce.R
+import com.example.ecommerce.common.invisible
+import com.example.ecommerce.common.visible
+import com.example.ecommerce.data.model.request.ClearCartRequest
+import com.example.ecommerce.databinding.FragmentCartBinding
+import com.example.ecommerce.ui.login.AuthViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

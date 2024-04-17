@@ -1,4 +1,4 @@
-package com.example.taptaze.ui.splash
+package com.example.ecommerce.ui.splash
 
 import android.os.Bundle
 import android.os.Handler
@@ -6,10 +6,10 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.example.taptaze.R
-import com.example.taptaze.common.viewBinding
-import com.example.taptaze.databinding.FragmentSplashBinding
-import com.example.taptaze.ui.login.AuthViewModel
+import com.example.ecommerce.R
+import com.example.ecommerce.common.viewBinding
+import com.example.ecommerce.databinding.FragmentSplashBinding
+import com.example.ecommerce.ui.login.AuthViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

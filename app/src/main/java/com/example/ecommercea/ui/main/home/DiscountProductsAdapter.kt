@@ -7,11 +7,10 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.ecommercea.data.model.ProductUI
-import com.example.taptaze.R
-import com.example.taptaze.common.loadImage
-import com.example.taptaze.common.visible
-import com.example.taptaze.data.model.ProductUI
-import com.example.taptaze.databinding.ProductItemBinding
+import com.example.ecommerce.R
+import com.example.ecommerce.common.loadImage
+import com.example.ecommerce.common.visible
+import com.example.ecommerce.databinding.ProductItemBinding
 
 class DiscountProductsAdapter(
     private val discountProductListener: DiscountProductListener

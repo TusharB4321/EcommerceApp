@@ -1,4 +1,4 @@
-package com.example.taptaze.ui.main.payment
+package com.example.ecommerce.ui.main.payment
 
 import android.os.Bundle
 import android.view.View
@@ -6,9 +6,9 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.taptaze.R
-import com.example.taptaze.common.viewBinding
-import com.example.taptaze.databinding.FragmentPaymentBinding
+import com.example.ecommerce.R
+import com.example.ecommerce.common.viewBinding
+import com.example.ecommerce.databinding.FragmentPaymentBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

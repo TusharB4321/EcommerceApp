@@ -1,6 +1,6 @@
-package com.example.taptaze.data.model.response
+package com.example.ecommerce.data.model.response
 
-import com.example.taptaze.data.model.Product
+import com.example.ecommerce.data.model.Product
 
 
 data class GetProductResponse(

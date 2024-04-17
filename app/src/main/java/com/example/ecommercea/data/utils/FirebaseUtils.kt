@@ -1,4 +1,4 @@
-package com.example.taptaze.data.utils
+package com.example.ecommerce.data.utils
 
 import com.google.android.gms.tasks.Task
 import kotlinx.coroutines.ExperimentalCoroutinesApi

@@ -1,4 +1,4 @@
-package com.example.taptaze.ui.main.cart
+package com.example.ecommerce.ui.main.cart
 
 import android.text.Html
 import android.view.LayoutInflater
@@ -6,10 +6,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.taptaze.common.loadImage
-import com.example.taptaze.common.visible
-import com.example.taptaze.data.model.ProductUI
-import com.example.taptaze.databinding.ItemCartBinding
+import com.example.ecommerce.common.loadImage
+import com.example.ecommerce.common.visible
+import com.example.ecommerce.data.model.ProductUI
+import com.example.ecommerce.databinding.ItemCartBinding
 
 class CartAdapter(
     private val cartListener: CartListener

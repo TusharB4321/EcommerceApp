@@ -1,8 +1,8 @@
-package com.example.taptaze.di
+package com.example.ecommerce.di
 
-import com.example.taptaze.data.repository.ProductRepository
-import com.example.taptaze.data.source.local.ProductDao
-import com.example.taptaze.data.source.remote.ProductService
+import com.example.ecommerce.data.repository.ProductRepository
+import com.example.ecommerce.data.source.local.ProductDao
+import com.example.ecommerce.data.source.remote.ProductService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

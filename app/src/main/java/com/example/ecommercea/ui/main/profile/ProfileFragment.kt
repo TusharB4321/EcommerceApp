@@ -1,19 +1,14 @@
-package com.example.taptaze.ui.main.profile
+package com.example.ecommerce.ui.main.profile
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.example.taptaze.R
-import com.example.taptaze.common.viewBinding
-import com.example.taptaze.data.model.request.ClearCartRequest
-import com.example.taptaze.databinding.FragmentProfileBinding
-import com.example.taptaze.ui.login.AuthViewModel
-import com.example.taptaze.ui.main.cart.CartFragmentDirections
-import com.example.taptaze.ui.main.cart.CartViewModel
-import com.example.taptaze.ui.main.favorite.FavoriteViewModel
-import com.google.firebase.auth.FirebaseAuth
+import com.example.ecommerce.R
+import com.example.ecommerce.common.viewBinding
+import com.example.ecommerce.databinding.FragmentProfileBinding
+import com.example.ecommerce.ui.login.AuthViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

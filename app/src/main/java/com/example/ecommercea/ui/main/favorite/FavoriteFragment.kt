@@ -1,4 +1,4 @@
-package com.example.taptaze.ui.main.favorite
+package com.example.ecommerce.ui.main.favorite
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,11 +8,11 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.example.taptaze.R
-import com.example.taptaze.common.invisible
-import com.example.taptaze.common.visible
-import com.example.taptaze.data.model.ProductUI
-import com.example.taptaze.databinding.FragmentFavoriteBinding
+import com.example.ecommerce.R
+import com.example.ecommerce.common.invisible
+import com.example.ecommerce.common.visible
+import com.example.ecommerce.data.model.ProductUI
+import com.example.ecommerce.databinding.FragmentFavoriteBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 

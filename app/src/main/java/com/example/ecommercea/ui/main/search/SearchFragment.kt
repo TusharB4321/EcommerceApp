@@ -1,4 +1,4 @@
-package com.example.taptaze.ui.main.search
+package com.example.ecommerce.ui.main.search
 
 import android.os.Bundle
 import android.view.View
@@ -7,16 +7,16 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.example.taptaze.R
-import com.example.taptaze.common.invisible
-import com.example.taptaze.common.viewBinding
-import com.example.taptaze.common.visible
-import com.example.taptaze.data.model.ProductUI
-import com.example.taptaze.data.model.request.AddToCartRequest
-import com.example.taptaze.databinding.FragmentSearchBinding
-import com.example.taptaze.ui.login.AuthViewModel
-import com.example.taptaze.ui.main.home.HomeState
-import com.example.taptaze.ui.main.home.HomeViewModel
+import com.example.ecommerce.R
+import com.example.ecommerce.common.invisible
+import com.example.ecommerce.common.viewBinding
+import com.example.ecommerce.common.visible
+import com.example.ecommerce.data.model.ProductUI
+import com.example.ecommerce.data.model.request.AddToCartRequest
+import com.example.ecommerce.databinding.FragmentSearchBinding
+import com.example.ecommerce.ui.login.AuthViewModel
+import com.example.ecommerce.ui.main.home.HomeState
+import com.example.ecommerce.ui.main.home.HomeViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

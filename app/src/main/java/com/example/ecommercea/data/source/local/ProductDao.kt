@@ -6,7 +6,6 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.example.ecommercea.data.model.ProductEntity
-import com.example.taptaze.data.model.ProductEntity
 
 @Dao
 interface ProductDao {

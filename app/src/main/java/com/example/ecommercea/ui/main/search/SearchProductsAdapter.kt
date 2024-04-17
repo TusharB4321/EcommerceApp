@@ -1,4 +1,4 @@
-package com.example.taptaze.ui.main.search
+package com.example.ecommerce.ui.main.search
 
 import android.text.Html
 import android.view.LayoutInflater
@@ -6,11 +6,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.taptaze.R
-import com.example.taptaze.common.loadImage
-import com.example.taptaze.common.visible
-import com.example.taptaze.data.model.ProductUI
-import com.example.taptaze.databinding.ItemSearchBinding
+import com.example.ecommerce.R
+import com.example.ecommerce.common.loadImage
+import com.example.ecommerce.common.visible
+import com.example.ecommerce.data.model.ProductUI
+import com.example.ecommerce.databinding.ItemSearchBinding
 
 class SearchProductsAdapter(
     private val searchProductListener: SearchProductListener

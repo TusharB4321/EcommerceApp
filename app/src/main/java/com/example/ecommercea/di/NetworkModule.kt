@@ -1,9 +1,9 @@
-package com.example.taptaze.di
+package com.example.ecommerce.di
 
 import android.content.Context
 import com.chuckerteam.chucker.api.ChuckerInterceptor
-import com.example.taptaze.common.Constants
-import com.example.taptaze.data.source.remote.ProductService
+import com.example.ecommerce.common.Constants
+import com.example.ecommerce.data.source.remote.ProductService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
