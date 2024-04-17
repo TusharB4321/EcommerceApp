@@ -18,6 +18,8 @@ import com.example.ecommerce.data.model.response.GetProductDetailResponse
 import com.example.ecommerce.data.model.response.GetProductResponse
 import com.example.ecommerce.data.model.response.GetSaleProductResponse
 import com.example.ecommerce.data.model.response.GetSearchProductResponse
+import com.example.ecommercea.common.Constants.Endpoint.GET_ALL_PRODUCTS
+import com.example.ecommercea.data.model.request.AddToCartRequest
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.Headers
@@ -27,45 +29,45 @@ import retrofit2.http.Query
 
 interface ProductService {
 
-    @Headers("store:taptaze")
+    @Headers("store:food")
     @GET(GET_ALL_PRODUCTS)
     suspend fun getAllProducts(): GetProductResponse
 
-    @Headers("store:taptaze")
+    @Headers("store:food")
     @GET(GET_PRODUCT_DETAIL)
     suspend fun getProductDetail(
         @Query("id") id: Int
     ): GetProductDetailResponse
 
-    @Headers("store:taptaze")
+    @Headers("store:food")
     @GET(GET_SALE_PRODUCTS)
     suspend fun getSaleProducts(): GetSaleProductResponse
 
-    @Headers("store:taptaze")
+    @Headers("store:food")
     @GET(SEARCH_PRODUCT)
     suspend fun getSearchProduct(
         @Query("query") query: String
     ): GetSearchProductResponse
 
-    @Headers("store:taptaze")
+    @Headers("store:food")
     @POST(ADD_TO_CART)
     suspend fun addToCart(
         @Body addToCartRequest: AddToCartRequest
     ): CRUDResponse
 
-    @Headers("store:taptaze")
+    @Headers("store:food")
     @GET(GET_CART_PRODUCTS)
     suspend fun getCartProducts(
         @Query("userId") userId: String
     ): GetCartProductsResponse
 
-    @Headers("store:taptaze")
+    @Headers("store:food")
     @POST(DELETE_FROM_CART)
     suspend fun deleteFromCart(
         @Body deleteFromCartRequest: DeleteFromCartRequest
     ): CRUDResponse
 
-    @Headers("store:taptaze")
+    @Headers("store:food")
     @POST(CLEAR_CART)
     suspend fun clearCart(
         @Body clearCartRequest: ClearCartRequest
